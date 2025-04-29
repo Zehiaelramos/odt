@@ -1092,6 +1092,13 @@ section,
   display: flex;
 }
 
+.alt-features .icon-box h1 {
+  font-size: 56px;
+  font-weight: 730;
+  margin: 0 0 10px 0;
+  color: black;
+}
+
 .alt-features .icon-box h4 {
   font-size: 25px;
   font-weight: 700;
