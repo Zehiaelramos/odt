@@ -1093,7 +1093,7 @@ section,
 }
 
 .alt-features .icon-box h4 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
@@ -1106,7 +1106,7 @@ section,
 }
 
 .alt-features .icon-box p {
-  font-size: 15px;
+  font-size: 21px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-bottom: 0;
 }
