@@ -841,7 +841,25 @@ section,
   background-size: cover;
 }
 
+.hero-contact {
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+  padding: 80px 0 60px 0;
+  display: flex;
+  align-items: center;
+  background: url(../img/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+
 .hero h1 {
+  font-size: 72px;
+  font-weight: 730;
+  margin: 0 0 10px 0;
+  color: black;
+}
+
+.hero-contact h1 {
   font-size: 72px;
   font-weight: 730;
   margin: 0 0 10px 0;
