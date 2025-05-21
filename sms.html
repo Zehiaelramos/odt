@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Contacto | ODT</title>
+    <title>SMS | ODT</title>
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -66,100 +66,82 @@
 --------------------------------------------------------------*/
 -->
     <main class="main">
-      <section class="company hero-company">
+      <section class="hero hero-solutions-img">
         <div class="container">
           <div class="row gy-4">
-            <!-- Contenido original de la primera sección -->
-            <div class="order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Estamos aquí para <span class="gradient-text">ayudarte</span>.</h1>
-              <div class="text-container">
-                <p>En ODT, entendemos que cada cliente es único. Por eso, ofrecemos un servicio personalizado y adaptado a tus necesidades. Nuestro equipo de expertos está listo para brindarte la atención y el soporte que requieres.</p>
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <h1><span class="gradient-text">SMS</span></h1>
+              <p>Envía mensajes personalizados o masivos con la seguridad de que cada comunicación llegará de forma inmediata y efectiva a tus clientes.</p>
+              <div class="d-flex flex-column flex-md-row">
+
+                <!-- Botón de WhatsApp -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+                <a href="https://wa.me/8112387093" target="_blank" style="text-decoration: none;">
+                  <button style="
+                    background-color: #075E54;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    font-size: 21px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                  ">
+                    <i class="fab fa-whatsapp"></i> Habla con un asesor
+                  </button>
+                </a>
+
               </div>
+            </div>
+            <div class="col-lg-6 order-1 d-flex justify-content-center">
+              <img src="assets/img/sms.png" class="img-fluid animated" alt="" style="width:80%; height:auto; border-radius: 40px; margin-left: auto;">
             </div>
           </div>
+        </div>
+      </section>
 
-          <!-- Contenido de la sección de contacto mezclado -->
-          <div class="row gy-4">
-            <div class="col-lg-6">
-              <div class="row gy-4">
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-geo-alt"></i>
-                    <h3>Direccion</h3>
-                    <p>Morelos #432 Oriente Despacho 901</p>
-                    <p>Monterrey Centro, CP 64000</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-telephone"></i>
-                    <h3>Oficina</h3>
-                    <p><a href="tel:+528119345582">+52 (81) 1934 5582</a></p>
-                    <p>&nbsp;</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-envelope"></i>
-                    <h3>Correo Eletrónico</h3>
-                    <p><a href="mailto:info@odt.com.mx">info@odt.com.mx</a></p>
-                    <p>&nbsp;</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-clock"></i>
-                    <h3>Horario de Atención</h3>
-                    <p>Lunes - Domingo</p>
-                    <p>8:00 AM - 6:00 PM</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
+      <section class="section-solutions py-5">
+        <div class="container text-center">
+          <h2 class="fw-bold mb-4">Mensajes que conectan, impactan y generan acción.</h2>
+          <p class="mb-5 text-muted">
+            Los SMS siguen siendo uno de los canales más confiables para establecer comunicación directa con tus usuarios.
+            Con una tasa de apertura superior al 90%, son perfectos para alertas, recordatorios, campañas promocionales y más.
+            Automatiza tus envíos y mantén el control desde una sola plataforma. Sin apps, sin internet, solo resultados.
+          </p>
+      
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+              <div class="p-4 rounded text-white h-100 d-flex flex-column align-items-center text-center card-solutions">
+                <i class="bi bi-lightning-fill fs-2 mb-3"></i>
+                <h4>Entrega instantánea</h4>
+                <p>Envía mensajes en segundos, sin depender de datos móviles o conexión a internet. Perfecto para mantener informados a tus usuarios, al instante.</p>
               </div>
             </div>
-
-            <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="email" class="form-control" name="email" placeholder="nombre@ejemplo.com" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Quisiera saber más información sobre..." required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Cargando</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Tu mensaje ha sido enviado.</div>
-
-                    <button type="submit">Envíar</button>
-                  </div>
-                </div>
-              </form>
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="p-4 rounded text-white h-100 d-flex flex-column align-items-center text-center card-solutions">
+                <i class="bi bi-phone fs-2 mb-3"></i>
+                <h4>Presencia directa</h4>
+                <p>Tu mensaje aparece en el lugar más visible: el celular. Ideal para impulsar promociones, generar interacción o confirmar acciones.</p>
+              </div>
             </div>
-            <!-- End Contact Form -->
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="p-4 rounded text-white h-100 d-flex flex-column align-items-center text-center card-solutions">
+                <i class="bi bi-graph-up-arrow fs-2 mb-3"></i>
+                <h4>Resultados en tiempo real</h4>
+                <p>Monitorea entregas y respuestas al momento. Optimiza tus campañas con métricas claras y toma decisiones más inteligentes.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-<!--
+    <!-- 
 /*--------------------------------------------------------------
 # FOOTER SECTION
 --------------------------------------------------------------*/

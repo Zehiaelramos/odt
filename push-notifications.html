@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Contacto | ODT</title>
+    <title>Push Notifications | ODT</title>
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -65,95 +65,76 @@
 # MAIN SECTION
 --------------------------------------------------------------*/
 -->
+
     <main class="main">
-      <section class="company hero-company">
+      <section class="hero hero-solutions-img">
         <div class="container">
           <div class="row gy-4">
-            <!-- Contenido original de la primera sección -->
-            <div class="order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Estamos aquí para <span class="gradient-text">ayudarte</span>.</h1>
-              <div class="text-container">
-                <p>En ODT, entendemos que cada cliente es único. Por eso, ofrecemos un servicio personalizado y adaptado a tus necesidades. Nuestro equipo de expertos está listo para brindarte la atención y el soporte que requieres.</p>
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <h1><span class="gradient-text">Push Notifications</span></h1>
+              <p>Envía alertas o promociones directamente al dispositivo de tus usuarios, logrando interacciones inmediatas incluso cuando la app no está en uso.</p>
+              <div class="d-flex flex-column flex-md-row">
+
+                <!-- Botón de WhatsApp -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+                <a href="https://wa.me/8112387093" target="_blank" style="text-decoration: none;">
+                  <button style="
+                    background-color: #075E54;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    font-size: 21px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                  ">
+                    <i class="fab fa-whatsapp"></i> Habla con un asesor
+                  </button>
+                </a>
+
               </div>
+            </div>
+            <div class="col-lg-6 order-1 d-flex justify-content-center">
+              <img src="assets/img/push.jpg" class="img-fluid animated" alt="" style="width:80%; height:auto; border-radius: 40px; margin-left: auto;">
             </div>
           </div>
+        </div>
+      </section>
 
-          <!-- Contenido de la sección de contacto mezclado -->
-          <div class="row gy-4">
-            <div class="col-lg-6">
-              <div class="row gy-4">
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-geo-alt"></i>
-                    <h3>Direccion</h3>
-                    <p>Morelos #432 Oriente Despacho 901</p>
-                    <p>Monterrey Centro, CP 64000</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-telephone"></i>
-                    <h3>Oficina</h3>
-                    <p><a href="tel:+528119345582">+52 (81) 1934 5582</a></p>
-                    <p>&nbsp;</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-envelope"></i>
-                    <h3>Correo Eletrónico</h3>
-                    <p><a href="mailto:info@odt.com.mx">info@odt.com.mx</a></p>
-                    <p>&nbsp;</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div class="col-md-6">
-                  <div class="info-item">
-                    <i class="bi bi-clock"></i>
-                    <h3>Horario de Atención</h3>
-                    <p>Lunes - Domingo</p>
-                    <p>8:00 AM - 6:00 PM</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
+      <section class="section-solutions py-5">
+        <div class="container text-center">
+          <h2 class="fw-bold mb-4">Notificaciones que captan atención y generan acción.</h2>
+          <p class="mb-5 text-muted">
+            Las Push Notifications son ideales para comunicarte en tiempo real con tus usuarios, incluso cuando no están usando tu app o sitio web. Personaliza los mensajes, segmenta tu audiencia y logra interacciones inmediatas con solo un clic.
+          </p>
+      
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+              <div class="p-4 rounded text-white h-100 d-flex flex-column align-items-center text-center card-solutions">
+                <i class="bi bi-bell fs-2 mb-3"></i>
+                <h4>Alerta en tiempo real.</h4>
+                <p>Llega al instante con mensajes breves pero efectivos. Perfecto para informar sobre eventos, promociones o cambios importantes.</p>
               </div>
             </div>
-
-            <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="email" class="form-control" name="email" placeholder="nombre@ejemplo.com" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Quisiera saber más información sobre..." required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Cargando</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Tu mensaje ha sido enviado.</div>
-
-                    <button type="submit">Envíar</button>
-                  </div>
-                </div>
-              </form>
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="p-4 rounded text-white h-100 d-flex flex-column align-items-center text-center card-solutions">
+                <i class="bi bi-person-check fs-2 mb-3"></i>
+                <h4>Interacción personalizada</h4>
+                <p>Segmenta tus notificaciones según comportamiento, intereses o ubicación. Crea experiencias relevantes para cada usuario.</p>
+              </div>
             </div>
-            <!-- End Contact Form -->
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="p-4 rounded text-white h-100 d-flex flex-column align-items-center text-center card-solutions">
+                <i class="bi bi-megaphone fs-2 mb-3"></i>
+                <h4>Alto impacto, bajo esfuerzo</h4>
+                <p>Notifica incluso sin abrir la app. Una herramienta poderosa para mantener contacto sin interrumpir la experiencia del usuario.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
